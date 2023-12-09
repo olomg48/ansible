@@ -1,0 +1,7 @@
+
+pool:
+  name: agent-test
+
+steps:
+- script: ansible-playbook -i inventory install_apache.yml
+  displayName: 'Run Ansible Playbook'
